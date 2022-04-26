@@ -1,0 +1,51 @@
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todo-container .header {
+  font-size: 60px;
+}
+
+.todo-container .main .main__buttons {
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.todo-container .main .main__buttons #input-text {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.todo-container .main .main__buttons button {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  border: aquamarine;
+  font-size: 30px;
+  color: #fff;
+}
+
+.todo-container .main .main__buttons button:hover {
+  background-color: aqua;
+  border: aqua;
+}
+
+.todo-container .main li {
+  padding: 30px;
+  font-size: 20px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.todo-trash {
+  float: right;
+}

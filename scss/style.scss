@@ -1,0 +1,58 @@
+.todo-container {
+max-width: 600px;
+margin: 0 auto;
+.header {
+   font-size: 60px;
+}
+.main {
+   .main__buttons{
+      max-width: 300px;
+   display: flex;
+   justify-content: space-between;
+         
+   
+
+      #input-text{
+   font-size: 15px;
+   padding: 10px;
+   border-radius: 3px;
+   }
+
+   button {
+      width: 40px;
+      height: 40px;
+      background-color: aquamarine;
+      border: aquamarine;
+      font-size: 30px;
+      color: #fff;
+   }
+
+   button:hover {
+      background-color: aqua;
+      border: aqua;
+   }
+
+}
+
+   li {
+      padding: 10px;
+      font-size: 20px;
+      background-color: aquamarine;
+      border-radius: 20px;
+      margin: 10px 0;
+      font-weight: 700;
+   }
+}
+}
+
+.trash {
+display: none;
+}
+
+.todo-text {
+   width: 300px;
+ }
+
+ .todo-trash {
+   float: right;
+ }
